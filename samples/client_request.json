@@ -2,7 +2,7 @@
   "imp": [
     {
       "ext": {
-        "tid": "b0359eb9-877b-4c33-b586-35ac7d6b83ef",
+        "tid": "52c20ef4-4059-45b2-abf8-db0fbcea8b6a",
         "prebid": {
           "bidder": {
             "rubicon": {
@@ -15,25 +15,11 @@
         }
       },
       "id": "rectangle-1",
-      "banner": {
-        "topframe": 1,
-        "format": [
-          {
-            "w": 300,
-            "h": 250
-          }
-        ]
-      }
+      "banner": { "topframe": 1, "format": [{ "w": 300, "h": 250 }] }
     }
   ],
-  "source": {
-    "tid": "ecf279a0-8360-4b0c-99c8-960ac5f0d444"
-  },
-  "regs": {
-    "ext": {
-      "gdpr": 1
-    }
-  },
+  "source": { "tid": "1fc5af4e-970c-45f9-bddf-8fcc4e608b32" },
+  "regs": { "ext": { "gdpr": 1 } },
   "user": {
     "ext": {
       "consent": "CQEyKcAQEyKcAAHABBENBGFgAP_gAEPgAATIJqIBJC5kBSFCAGJgYNkAIAAGxxAAIAAAABAAAAAAABoAIAgAAAAwAAQABAAAABAAIEIAAABACABAAAAAQAAAAQAAAAAQAAAAAQAAAAAAAiBACAAAAABAAQAAAABAQAAAgAAAAAIAQAAAAAEAgAAAAAAAAAAAABAAAQgAAAAAAAAAAAAAAAAAAAAAAAAAABBAAAAAAAAAAAAAAAAAwTUgRAAVAAuABwAEAAMgAaABEACYAFUALgAYgA_ACEgEQARIAjgBlgDNgHcAd4A_QCDgEWAJKAXUA2gB1AE2gKkAVkAtQBbgC8wGSANTAmoAAAAA.f_wACHwAAAAA",
@@ -43,10 +29,12 @@
     }
   },
   "site": {
+    "domain": "esosek.github.io",
     "publisher": {
+      "domain": "esosek.github.io",
       "id": "0689a263-318d-448b-a3d4-b02e8a709d9d"
     },
-    "page": "file:///home/esosek/Documents/Web_Development/prebid-client/index.html"
+    "page": "https://esosek.github.io/prebid-client/"
   },
   "device": {
     "w": 1920,
@@ -54,47 +42,27 @@
     "dnt": 0,
     "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
     "language": "cs",
-    "ext": {
-      "vpw": 928,
-      "vph": 900
-    },
+    "ext": { "vpw": 928, "vph": 900 },
     "sua": {
       "source": 1,
-      "platform": {
-        "brand": "Linux"
-      },
+      "platform": { "brand": "Linux" },
       "browsers": [
-        {
-          "brand": "Google Chrome",
-          "version": ["129"]
-        },
-        {
-          "brand": "Not=A?Brand",
-          "version": ["8"]
-        },
-        {
-          "brand": "Chromium",
-          "version": ["129"]
-        }
+        { "brand": "Google Chrome", "version": ["129"] },
+        { "brand": "Not=A?Brand", "version": ["8"] },
+        { "brand": "Chromium", "version": ["129"] }
       ],
       "mobile": 0
     }
   },
-  "id": "0e7de375-0fca-4e3e-a4ed-55912ee67ceb",
+  "id": "c3b37d60-30b4-4355-be3c-57ec6a51a252",
   "test": 0,
   "cur": ["CZK"],
   "ext": {
     "prebid": {
-      "auctiontimestamp": 1728466040732,
-      "targeting": {
-        "includewinners": true,
-        "includebidderkeys": false
-      },
+      "auctiontimestamp": 1728466974765,
+      "targeting": { "includewinners": true, "includebidderkeys": false },
       "debug": true,
-      "channel": {
-        "name": "pbjs",
-        "version": "v9.15.0"
-      }
+      "channel": { "name": "pbjs", "version": "v9.15.0" }
     },
     "tmaxmax": 1000
   },

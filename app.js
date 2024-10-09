@@ -84,11 +84,15 @@ var adUnits = [
 pbjs = window.pbjs || {}
 pbjs.que = pbjs.que || []
 
-pbjs.que.push(() => {
-  pbjs.setConfig(prebidConfig)
-  pbjs.addAdUnits(adUnits)
-  pbjs.requestBids({
-    bidsBackHandler: handleBidsBack,
+// Makes sure that CMP is ready before running Prebid auction
+didomiOnReady = window.didomiOnReady || []
+didomiOnReady.push(function () {
+  pbjs.que.push(() => {
+    pbjs.setConfig(prebidConfig)
+    pbjs.addAdUnits(adUnits)
+    pbjs.requestBids({
+      bidsBackHandler: handleBidsBack,
+    })
   })
 })
 
