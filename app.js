@@ -65,7 +65,11 @@ var adUnits = [
     code: 'rectangle-1',
     mediaTypes: {
       banner: {
-        sizes: [300, 250],
+        sizes: [
+          [300, 250],
+          [300, 300],
+          [320, 50], // For Prebid test PBS instance
+        ],
       },
     },
     bids: [
