@@ -20,9 +20,23 @@ const debugging = {
   ],
 }
 
+const pbsConfig = [
+  {
+    accountId: '0689a263-318d-448b-a3d4-b02e8a709d9d',
+    bidders: ['rubicon'],
+    adapter: 'prebidServer',
+    enabled: true,
+    endpoint: 'https://prebid-server-test-j.prebid.org/openrtb2/auction',
+    syncEndpoint: 'https://prebid-server-test-j.prebid.org/cookie_sync',
+    timeout: 1000,
+    allowUnknownBidderCodes: true,
+  },
+]
+
 const prebidConfig = {
   debug: true,
-  debugging, // Testing
+  // debugging, // Testing
+  debugging: false,
   bidderTimeout: 1000,
   consentManagement: {
     gdpr: {
@@ -43,6 +57,7 @@ const prebidConfig = {
   },
   cache: { url: 'https://prebid.adnxs.com/pbc/v1/cache' },
   enableTIDs: true,
+  s2sConfig: pbsConfig,
 }
 
 var adUnits = [

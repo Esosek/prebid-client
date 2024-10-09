@@ -1,0 +1,102 @@
+{
+  "imp": [
+    {
+      "ext": {
+        "tid": "b0359eb9-877b-4c33-b586-35ac7d6b83ef",
+        "prebid": {
+          "bidder": {
+            "rubicon": {
+              "accountId": 1001,
+              "siteId": 267318,
+              "zoneId": 1861698
+            }
+          },
+          "adunitcode": "rectangle-1"
+        }
+      },
+      "id": "rectangle-1",
+      "banner": {
+        "topframe": 1,
+        "format": [
+          {
+            "w": 300,
+            "h": 250
+          }
+        ]
+      }
+    }
+  ],
+  "source": {
+    "tid": "ecf279a0-8360-4b0c-99c8-960ac5f0d444"
+  },
+  "regs": {
+    "ext": {
+      "gdpr": 1
+    }
+  },
+  "user": {
+    "ext": {
+      "consent": "CQEyKcAQEyKcAAHABBENBGFgAP_gAEPgAATIJqIBJC5kBSFCAGJgYNkAIAAGxxAAIAAAABAAAAAAABoAIAgAAAAwAAQABAAAABAAIEIAAABACABAAAAAQAAAAQAAAAAQAAAAAQAAAAAAAiBACAAAAABAAQAAAABAQAAAgAAAAAIAQAAAAAEAgAAAAAAAAAAAABAAAQgAAAAAAAAAAAAAAAAAAAAAAAAAABBAAAAAAAAAAAAAAAAAwTUgRAAVAAuABwAEAAMgAaABEACYAFUALgAYgA_ACEgEQARIAjgBlgDNgHcAd4A_QCDgEWAJKAXUA2gB1AE2gKkAVkAtQBbgC8wGSANTAmoAAAAA.f_wACHwAAAAA",
+      "ConsentedProvidersSettings": {
+        "consented_providers": "1~7.12.35.62.66.70.89.93.108.122.144.149.153.162.167.184.196.221.241.253.259.272.311.317.323.326.338.348.350.415.440.448.449.482.486.491.494.495.540.571.574.585.587.588.590.725.733.780.817.839.864.867.932.938.981.986.1031.1033.1051.1092.1097.1126.1127.1170.1171.1186.1201.1204.1205.1211.1215.1230.1232.1236.1248.1276.1290.1301.1313.1344.1364.1365.1415.1419.1428.1449.1451.1509.1558.1564.1570.1577.1591.1651.1669.1712.1716.1720.1721.1725.1733.1753.1765.1799.1810.1834.1842.1870.1878.1889.1896.1911.1922.1929.2012.2072.2078.2079.2109.2177.2202.2253.2290.2299.2316.2357.2373.2526.2531.2571.2572.2575.2628.2663.2677.2776.2778.2779.2985.3033.3052.3154"
+      }
+    }
+  },
+  "site": {
+    "publisher": {
+      "id": "0689a263-318d-448b-a3d4-b02e8a709d9d"
+    },
+    "page": "file:///home/esosek/Documents/Web_Development/prebid-client/index.html"
+  },
+  "device": {
+    "w": 1920,
+    "h": 1080,
+    "dnt": 0,
+    "ua": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+    "language": "cs",
+    "ext": {
+      "vpw": 928,
+      "vph": 900
+    },
+    "sua": {
+      "source": 1,
+      "platform": {
+        "brand": "Linux"
+      },
+      "browsers": [
+        {
+          "brand": "Google Chrome",
+          "version": ["129"]
+        },
+        {
+          "brand": "Not=A?Brand",
+          "version": ["8"]
+        },
+        {
+          "brand": "Chromium",
+          "version": ["129"]
+        }
+      ],
+      "mobile": 0
+    }
+  },
+  "id": "0e7de375-0fca-4e3e-a4ed-55912ee67ceb",
+  "test": 0,
+  "cur": ["CZK"],
+  "ext": {
+    "prebid": {
+      "auctiontimestamp": 1728466040732,
+      "targeting": {
+        "includewinners": true,
+        "includebidderkeys": false
+      },
+      "debug": true,
+      "channel": {
+        "name": "pbjs",
+        "version": "v9.15.0"
+      }
+    },
+    "tmaxmax": 1000
+  },
+  "tmax": 1000
+}
