@@ -1,4 +1,4 @@
-// For testing purposes on local env
+// For testing purposes when intercept is needed
 const debugging = {
   enabled: true,
   intercept: [
