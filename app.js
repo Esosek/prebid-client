@@ -23,11 +23,13 @@ const debugging = {
 const pbsConfig = [
   {
     accountId: '0689a263-318d-448b-a3d4-b02e8a709d9d',
-    bidders: ['rubicon'],
+    bidders: [],
     adapter: 'prebidServer',
     enabled: true,
-    endpoint: 'https://prebid-server-test-j.prebid.org/openrtb2/auction',
-    syncEndpoint: 'https://prebid-server-test-j.prebid.org/cookie_sync',
+    // endpoint: 'https://prebid-server-test-j.prebid.org/openrtb2/auction', // Prebid testing PBS for mobile apps
+    // syncEndpoint: 'https://prebid-server-test-j.prebid.org/cookie_sync',
+    endpoint: 'http://localhost:8000/openrtb2/auction',
+    syncEndpoint: 'http://localhost:8000/cookie_sync',
     timeout: 1000,
     allowUnknownBidderCodes: true,
   },
