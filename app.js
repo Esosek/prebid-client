@@ -23,7 +23,7 @@ const debugging = {
 const pbsConfig = [
   {
     accountId: '0689a263-318d-448b-a3d4-b02e8a709d9d',
-    bidders: [],
+    bidders: ['rubicon', 'pubmatic', 'appnexus'],
     adapter: 'prebidServer',
     enabled: true,
     // endpoint: 'https://prebid-server-test-j.prebid.org/openrtb2/auction', // Prebid testing PBS for mobile apps
@@ -76,14 +76,25 @@ var adUnits = [
     },
     bids: [
       {
-        bidder: 'rubicon',
-        params: {
-          accountId: 1001,
-          siteId: 267318,
-          zoneId: 1861698,
+        module: 'pbsBidAdapter',
+        ortb2Imp: {
+          ext: {
+            // prebid: { storedrequest: { id: 'prebid-demo-banner-300-250' } },
+            prebid: { storedrequest: { id: 'test-imp-id' } },
+          },
         },
       },
     ],
+    // bids: [
+    //   {
+    //     bidder: 'rubicon',
+    //     params: {
+    //       accountId: 1001,
+    //       siteId: 267318,
+    //       zoneId: 1861698,
+    //     },
+    //   },
+    // ],
   },
 ]
 

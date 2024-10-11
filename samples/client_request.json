@@ -2,39 +2,35 @@
   "imp": [
     {
       "ext": {
-        "tid": "52c20ef4-4059-45b2-abf8-db0fbcea8b6a",
         "prebid": {
-          "bidder": {
-            "rubicon": {
-              "accountId": 1001,
-              "siteId": 267318,
-              "zoneId": 1861698
-            }
-          },
+          "storedrequest": { "id": "test-imp-id" },
           "adunitcode": "rectangle-1"
-        }
+        },
+        "tid": "b91fce6d-10b6-4302-b35d-cfe06b273a79"
       },
       "id": "rectangle-1",
-      "banner": { "topframe": 1, "format": [{ "w": 300, "h": 250 }] }
+      "banner": {
+        "topframe": 1,
+        "format": [
+          { "w": 300, "h": 250 },
+          { "w": 300, "h": 300 }
+        ]
+      }
     }
   ],
-  "source": { "tid": "1fc5af4e-970c-45f9-bddf-8fcc4e608b32" },
+  "source": { "tid": "2e6cbe5a-67b3-4fc7-8a7f-c863e8570a2f" },
   "regs": { "ext": { "gdpr": 1 } },
   "user": {
     "ext": {
-      "consent": "CQEyKcAQEyKcAAHABBENBGFgAP_gAEPgAATIJqIBJC5kBSFCAGJgYNkAIAAGxxAAIAAAABAAAAAAABoAIAgAAAAwAAQABAAAABAAIEIAAABACABAAAAAQAAAAQAAAAAQAAAAAQAAAAAAAiBACAAAAABAAQAAAABAQAAAgAAAAAIAQAAAAAEAgAAAAAAAAAAAABAAAQgAAAAAAAAAAAAAAAAAAAAAAAAAABBAAAAAAAAAAAAAAAAAwTUgRAAVAAuABwAEAAMgAaABEACYAFUALgAYgA_ACEgEQARIAjgBlgDNgHcAd4A_QCDgEWAJKAXUA2gB1AE2gKkAVkAtQBbgC8wGSANTAmoAAAAA.f_wACHwAAAAA",
+      "consent": "CQGOcsAQGOcsAAHABBENBKFgAP_gAEPgAAAAJqIBJC5kBSFCAGJgYNkAIAAGxxAAIAAAABAAAAAAABoAIAgAAAAwAAQABAAAABAAIEIAAABACABAAAAAQAAAAQAAAAAQAAAAAQAAAAAAAiBACAAAAABAAQAAAABAQAAAgAAAAAIAQAAAAAEAgAAAAAAAAAAAABAAAQgAAAAAAAAAAAAAAAAAAAAAAAAAABBAAAAAAAAAAAAAAAAAwTUgQgAVAAuABwAEAAMgAaABEACYAFUALgAYgA_ACEgEQARIAjgBlgDNgHcAd4A_QCDgEWAJKAbQA6gCbQFSAKyAWoAtwBeYDJAGpgTUAAAA.f_wACHwAAAAA",
       "ConsentedProvidersSettings": {
         "consented_providers": "1~7.12.35.62.66.70.89.93.108.122.144.149.153.162.167.184.196.221.241.253.259.272.311.317.323.326.338.348.350.415.440.448.449.482.486.491.494.495.540.571.574.585.587.588.590.725.733.780.817.839.864.867.932.938.981.986.1031.1033.1051.1092.1097.1126.1127.1170.1171.1186.1201.1204.1205.1211.1215.1230.1232.1236.1248.1276.1290.1301.1313.1344.1364.1365.1415.1419.1428.1449.1451.1509.1558.1564.1570.1577.1591.1651.1669.1712.1716.1720.1721.1725.1733.1753.1765.1799.1810.1834.1842.1870.1878.1889.1896.1911.1922.1929.2012.2072.2078.2079.2109.2177.2202.2253.2290.2299.2316.2357.2373.2526.2531.2571.2572.2575.2628.2663.2677.2776.2778.2779.2985.3033.3052.3154"
       }
     }
   },
   "site": {
-    "domain": "esosek.github.io",
-    "publisher": {
-      "domain": "esosek.github.io",
-      "id": "0689a263-318d-448b-a3d4-b02e8a709d9d"
-    },
-    "page": "https://esosek.github.io/prebid-client/"
+    "publisher": { "id": "0689a263-318d-448b-a3d4-b02e8a709d9d" },
+    "page": "file:///home/esosek/Documents/Web_Development/prebid-client/index.html"
   },
   "device": {
     "w": 1920,
@@ -54,12 +50,12 @@
       "mobile": 0
     }
   },
-  "id": "c3b37d60-30b4-4355-be3c-57ec6a51a252",
+  "id": "4724a69a-450f-4d24-b6dc-47fff2f38d98",
   "test": 0,
   "cur": ["CZK"],
   "ext": {
     "prebid": {
-      "auctiontimestamp": 1728466974765,
+      "auctiontimestamp": 1728479179403,
       "targeting": { "includewinners": true, "includebidderkeys": false },
       "debug": true,
       "channel": { "name": "pbjs", "version": "v9.15.0" }
